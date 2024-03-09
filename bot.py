@@ -18,6 +18,8 @@ async def on_message(message):
         return
     if message.content.startswith('$halo'):
         await message.channel.send("Hai!")
+    elif message.content.startswith('$yourname'):
+        await message.channel.send("Halo aku bot")
     elif message.content.startswith('$sampai jumpa'):
         await message.channel.send("\U0001f642")
     elif message.content.startswith('$smile'):
